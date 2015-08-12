@@ -1,0 +1,11 @@
+Follow the procedure to run the android applcaition.
+
+
+1. "AndroidUDPClient" is an android application works as a UdpClient.
+2. "udpserver" (UDPSr.java) is an java application 
+   First run the UDPSr.java application at the server(your pc) side 
+
+   Then run the android application on the Android device, when we clicked on the "temp" and "humi" buttons on the android UI, it will    communicate with the UDPserver and receives sample data from the server, 
+   then it will show those values on the temp and humi text boxes on the Android application user interface.
+
+   note: Needs to change serverip address in the android application 
